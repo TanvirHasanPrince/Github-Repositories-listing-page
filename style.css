@@ -1,27 +1,88 @@
 * {
- padding: 10px 10px 10px 10px;
- width: 100%;
- margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  margin: 0 auto;
 }
+
+/* Starting - Intro section */
 
 .avatar-section {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  text-align: center; 
+  align-items: center;
+  text-align: center;
 }
 
 .avatar {
   width: 50px;
-  height: 50px; 
-  height: auto; 
-  border-radius: 50%; 
+  height: 50px;
+  height: auto;
+  border-radius: 50%;
   margin-bottom: 10px;
 }
 
 .intro-div {
-   display: flex;
+  display: flex;
   flex-direction: row;
-  align-items: center; 
-  text-align: center; 
+  align-items: center;
+  text-align: center;
 }
+
+/* Ending - Intro section */
+
+/* Starting of repo section */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.card-heading {
+  color: #333;
+}
+
+.card-paragraph {
+  color: #666;
+}
+
+.tag-section {
+  margin-top: 15px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+/* Ending of repo section */
+
+
+/* Starting - Pagination section */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination a {
+  color: #007bff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
+
+.pagination a.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+/* Ending - Pagination section */
